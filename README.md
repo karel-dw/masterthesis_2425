@@ -8,7 +8,7 @@ These three files are:
   
 Two files support this workflow, namely 
   transform.py contains the transformations to and from scaled/deformed coordinates, and
-  Gref_formula.py contains the analytica expression for the Gibbs free energy of the reference NPT harmonic approximation.
+  G_ref_formula.py contains the analytica expression for the Gibbs free energy of the reference NPT harmonic approximation.
   
 One file contains the script of NPT normal mode sampling, namely
   NPT_NMS.py
