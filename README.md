@@ -6,9 +6,10 @@ These three files are:
   extended_hessian.py
   md_mixed.py
   
-Two files support this workflow, namely 
-  transform.py contains the transformations to and from scaled/deformed coordinates, and
-  G_ref_formula.py contains the analytica expression for the Gibbs free energy of the reference NPT harmonic approximation.
+Three files support this workflow, namely 
+  transform.py contains the transformations to and from scaled/deformed coordinates,
+  G_ref_formula.py contains the analytical expression for the Gibbs free energy of the reference NPT harmonic approximation,
+  and extended_harmonic_hamiltonian.py contains the code to extract energy/forces/stresses from the NPT harmonic approximation (this script only works integrated in psiflow).
   
 One file contains the script of NPT normal mode sampling, namely
   NPT_NMS.py
